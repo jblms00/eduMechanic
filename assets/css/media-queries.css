@@ -1,0 +1,193 @@
+/* For larger monitors (above 1400px) */
+@media (min-width: 1400px) {
+	.pdf-container {
+		height: 80vh;
+	}
+}
+
+/* For Laptops and Medium screens (1024px to 1399px) */
+@media (min-width: 1024px) and (max-width: 1399px) {
+	.pdf-container {
+		height: 75vh;
+	}
+}
+
+/* For Tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+	.pdf-container {
+		height: 60vh;
+		padding-left: 0.5rem;
+		padding-top: 1rem;
+	}
+}
+
+/* For Mobile Phones (768px to 1023px) */
+@media (min-width: 426px) and (max-width: 768px) {
+	.login-container {
+		width: 400px;
+	}
+
+	.pdf-container {
+		height: 50vh;
+		padding-left: 0.5rem;
+		padding-top: 1rem;
+	}
+}
+
+/* For Smaller Mobile Phones (below 425px) */
+@media (max-width: 425px) {
+	* {
+		font-size: 14px;
+	}
+
+	/* Landing Page */
+	.login-container,
+	.registration-container {
+		width: 400px;
+	}
+
+	#registrationForm .row.mb-3,
+	.admin-side .cards-container .row,
+	.admin-side .charts-container .row,
+	.admin-side .container.table-container .d-flex,
+	.container-profile .row,
+	.container-fluid.banner .row,
+	.container-materials .row,
+	.home-section .nav,
+	.quiz-page .page-title {
+		flex-direction: column !important;
+		gap: 15px;
+	}
+
+	.sidebar.open {
+		width: 220px !important;
+	}
+
+	/* Admin */
+	.admin-side .charts-container .card {
+		height: auto !important;
+	}
+
+	.admin-side .charts-container tspan {
+		font-size: 12px !important;
+	}
+
+	.admin-side section,
+	.container-profile .input-container,
+	.mechanic-act {
+		padding: 0 !important;
+	}
+
+	.admin-side .container.table-container .d-flex input,
+	.container-profile button {
+		width: 100% !important;
+	}
+
+	/* Student */
+	.user-profile img {
+		height: 60px;
+		width: 60px;
+	}
+
+	.container-fluid.banner,
+	.container-materials,
+	.cs-description,
+	.quiz-page section,
+	.container-quiz,
+	.container-activity,
+	#containerVideos,
+	#containerSimulations,
+	.containter-grades {
+		padding: 1rem !important;
+	}
+
+	.container-materials .card {
+		width: 22rem;
+	}
+
+	#containerReadings .reading,
+	.containter-grades .row {
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.home-section .nav-item,
+	.cs-description .box-container,
+	.containter-grades .col-8,
+	.containter-grades .col-4 {
+		width: auto !important;
+	}
+
+	.cs-content.is-active {
+		transform: translateX(45%);
+	}
+
+	.cs-sidebar {
+		width: 45%;
+		padding: 0;
+	}
+
+	.cs-wrapper .accordion-body ul li {
+		padding-right: 30px;
+	}
+
+	.cs-description .box-container a {
+		font-size: 13px;
+		padding: 4px 12px;
+		width: 60%;
+	}
+
+	.user-answers {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.container-activity img {
+		height: 100px;
+	}
+
+	.dropzone {
+		min-height: 200px;
+	}
+
+	.cs-description .box-container li,
+	#progressTable th {
+		font-size: 14px !important;
+	}
+
+	#recentTasks th:nth-child(4),
+	#recentTasks th:nth-child(6),
+	#recentTasks td:nth-child(4),
+	#recentTasks td:nth-child(6),
+	#lessonsTable th:nth-child(4),
+	#lessonsTable td:nth-child(4),
+	#activityTable th:nth-child(3),
+	#activityTable td:nth-child(3),
+	#videosTable th:nth-child(4),
+	#videosTable td:nth-child(4),
+	#progressTable td .d-flex.align-items-center.gap-3 {
+		display: none !important;
+	}
+
+	#progressTable th:nth-child(1),
+	#progressTable td:nth-child(1) {
+		text-align: center;
+	}
+
+	.container-profile,
+	#containerReadings {
+		text-align: center;
+		padding: 1rem !important;
+	}
+
+	.pdf-container {
+		height: 50vh;
+		padding-left: 0.5rem;
+		padding-top: 1rem;
+	}
+
+	.container-photo .profile-pic {
+		height: 160px;
+		width: 160px;
+	}
+}

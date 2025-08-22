@@ -1,0 +1,72 @@
+.animation-left {
+	animation: moveFromLeft 1s forwards;
+}
+
+@keyframes moveFromLeft {
+	from {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.animation-right {
+	animation: moveFromRight 1s forwards;
+}
+
+@keyframes moveFromRight {
+	from {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.animation-downwards {
+	animation: moveDownwards 1s forwards;
+}
+
+@keyframes moveDownwards {
+	from {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.animation-upwards {
+	animation: moveUpwards 1s forwards;
+}
+
+@keyframes moveUpwards {
+	from {
+		transform: translateY(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.animation-fade-in {
+	animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
